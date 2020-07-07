@@ -1,0 +1,89 @@
+@font-face {
+    src: url(fonts/alcotton.ttf);
+    font-family: alcotton;
+}
+
+body {
+    
+    font-family: alcotton;
+}
+
+
+.sizes {
+    margin-left: 390px;
+    padding: 0;
+margin-top: -40px;
+}
+
+
+
+
+.TJP-vid {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   top: 0;
+   left: 0;
+  
+   
+}
+#navbar-1{
+    text-align: center;
+   font-size: 2.4rem;
+   position: absolute;
+   text-decoration: none;
+    color: white;
+    margin-left: 250px;
+    font-weight: 15px;
+    text-shadow: 3px 3px 9px black;
+    opacity: 0.9;
+    
+    
+}
+
+.navbar-2 {
+    text-align: center;
+    font-size: 2.0rem;
+    text-decoration: none;
+    color: red;
+    margin-top: 145px;
+}
+#navbar-1:hover {
+    animation-name: main-site-animation;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+#navbar-1:active {
+    animation-name: click-animation;
+    animation-duration: 0.1s;
+  
+    
+}
+
+@keyframes main-site-animation {
+    0% {
+        margin-left: 250px;
+       
+    }
+    50% {
+        margin-left: 260px;
+      
+    }
+    100% {
+        margin-left: 250px;
+        
+    }
+}
+
+@keyframes click-animation {
+    0% {
+        margin-left: 250px;
+    }
+    50% {
+        margin-left: 270px;
+        
+    }
+    100% {
+        margin-left: 250px;
+    }
+}
